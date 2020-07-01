@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="18" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="176" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+    <groups>
+      <group name="single">
+        <method signature="TestNG_Assignment.testInverse(int)[pri:5, instance:com.testNG.TestNG_Assignment@2b552920]" name="testInverse" class="com.testNG.TestNG_Assignment"/>
+        <method signature="TestNG_Assignment.testNegate(int)[pri:6, instance:com.testNG.TestNG_Assignment@2b552920]" name="testNegate" class="com.testNG.TestNG_Assignment"/>
+      </group> <!-- single -->
+      <group name="multiple">
+        <method signature="TestNG_Assignment.testDivide(int, int)[pri:3, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testDivide" class="com.testNG.TestNG_Assignment"/>
+        <method signature="TestNG_Assignment.testExponent()[pri:5, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testExponent" class="com.testNG.TestNG_Assignment"/>
+        <method signature="TestNG_Assignment.testMod()[pri:7, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMod" class="com.testNG.TestNG_Assignment"/>
+        <method signature="TestNG_Assignment.testMultiply(int, int)[pri:2, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMultiply" class="com.testNG.TestNG_Assignment"/>
+        <method signature="TestNG_Assignment.testSubtract(int, int)[pri:1, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testSubtract" class="com.testNG.TestNG_Assignment"/>
+      </group> <!-- multiple -->
+    </groups>
+    <test name="Single_Parameter" duration-ms="84" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+      <class name="com.testNG.TestNG_Assignment">
+        <test-method status="PASS" signature="testInverse(int)[pri:5, instance:com.testNG.TestNG_Assignment@2b552920]" name="testInverse" duration-ms="15" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverse -->
+        <test-method status="PASS" signature="testNegate(int)[pri:6, instance:com.testNG.TestNG_Assignment@2b552920]" name="testNegate" duration-ms="15" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegate -->
+      </class> <!-- com.testNG.TestNG_Assignment -->
+    </test> <!-- Single_Parameter -->
+    <test name="Multiple_Parameters" duration-ms="51" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+      <class name="com.testNG.TestNG_Assignment">
+        <test-method status="PASS" signature="testSubtract(int, int)[pri:1, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testSubtract" duration-ms="3" started-at="2020-07-02T00:24:23 IST" data-provider="testData" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+        <test-method status="PASS" signature="testDivide(int, int)[pri:3, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testDivide" duration-ms="4" started-at="2020-07-02T00:24:23 IST" data-provider="testData" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method status="PASS" signature="testMultiply(int, int)[pri:2, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMultiply" duration-ms="6" started-at="2020-07-02T00:24:23 IST" data-provider="testDataAddMul" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method status="PASS" signature="testExponent()[pri:5, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testExponent" duration-ms="15" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExponent -->
+        <test-method status="PASS" signature="testMultiply(int, int)[pri:2, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMultiply" duration-ms="3" started-at="2020-07-02T00:24:23 IST" data-provider="testDataAddMul" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method status="PASS" signature="testMultiply(int, int)[pri:2, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMultiply" duration-ms="2" started-at="2020-07-02T00:24:23 IST" data-provider="testDataAddMul" finished-at="2020-07-02T00:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method status="PASS" signature="testMod()[pri:7, instance:com.testNG.TestNG_Assignment@614ddd49]" name="testMod" duration-ms="9" started-at="2020-07-02T00:24:23 IST" finished-at="2020-07-02T00:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMod -->
+      </class> <!-- com.testNG.TestNG_Assignment -->
+    </test> <!-- Multiple_Parameters -->
+  </suite> <!-- Suite -->
+</testng-results>

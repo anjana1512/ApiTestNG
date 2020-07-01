@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods"> <!-- Runs 2 tests in parallel -->
+<parameter name="single-integer"  value="2"/> <!-- Parameters - passing single parameter in suite level -->
+  <test thread-count="5" name="Single_Parameter" parallel="methods">
+     <groups>
+    <run>
+      <include name="single"/> <!-- Groups - Includes single parameter tests -->
+    </run>
+  </groups>
+    <classes>
+      <class name="com.testNG.TestNG_Assignment"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Multiple_Parameters">
+     <groups>
+    <run>
+      <include name="multiple"/> <!-- Groups - Includes multiple parameter tests -->
+      <exclude name="add"/> <!-- Groups - Excludes the addition test -->
+    </run>
+  </groups>
+    <classes>
+      <class name="com.testNG.TestNG_Assignment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
